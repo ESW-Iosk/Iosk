@@ -2,14 +2,14 @@
 임베디드 소프트웨어 경진대회 2024
 '아이오스크'팀의  소스코드 저장소입니다.
 
-# code_2.ev3
+## code_2.ev3
 시연 영상 속 로봇의 소스코드입니다.
 
-# esw_test.aia
+## esw_test.aia
 키오스크 앱 소스코드 입니다.
 
-# esw_pos.aia
+## esw_pos.aia
 POS 앱 소스코드 입니다.
 
-# esw_kiosk_phone.aia
+## esw_kiosk_phone.aia
 키오스크 결제 앱 소스코드 입니다.
