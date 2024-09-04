@@ -1,0 +1,25 @@
+﻿version 3.00
+cm_version 1.0
+platform CM-530
+- 
+- 
+- 
+o main
+o begin
+o while(1)
+o begin
+o load param_dest:var:수신데이터 param_src:cm:1
+o if param_src:var:수신데이터 lop:== param_src:rc100z_num:1 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:2
+o end
+o if param_src:var:수신데이터 lop:== param_src:rc100z_num:2 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:1
+o end
+o if param_src:var:수신데이터 lop:== param_src:rc100z_num:8 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:3
+o end
+o end
+o end
